@@ -1,0 +1,20 @@
+*.iml
+.DS_Store
+.classpath
+.project
+.gradle
+.idea
+# output of gradle.
+build/
+Thumbs.db
+desktop.ini
+local.properties
+
+.gradle/
+.idea/
+.pc/
+.settings/
+bin/
+build/
+gen/
+target/
