@@ -26,4 +26,15 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="@string/main_text"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
 </RelativeLayout>

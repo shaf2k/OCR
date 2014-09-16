@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MTN Image Reader</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">MTN OCR Reader</string>
+    <string name="main_text">Click on the camera button to record meter</string>
+    <string name="ocr_output">Meter reading result</string>
+    <string name="meter_reading">Image Reading: </string>
+    <string name="Location">GPS Coord: </string>
+    <string name="City">Location: </string>
+    <string name="Time">Record time: </string>
+    <string name="Send">Send to Server</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_camera_preview">CameraPreviewActivity</string>
     <string name="capture">Capture</string>
