@@ -499,7 +499,7 @@ public class CropImage extends MonitoredActivity {
 
             RectF cropRect = new RectF(x, y, x + cropWidth, y + cropHeight);
             hv.setup(mImageMatrix, imageRect, cropRect, mCircleCrop,
-                     mAspectX != 0 && mAspectY != 0);
+                    false);
             mImageView.add(hv);
         }
 

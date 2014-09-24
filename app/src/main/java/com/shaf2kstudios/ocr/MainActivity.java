@@ -159,8 +159,8 @@ public class MainActivity extends Activity  implements LocationListener {
 
 		if (requestCode == CAMERA_PICTURE && resultCode == Activity.RESULT_OK ) {
 			Log.v(TAG, "Photo Taken");
-			onPhotoTaken(); // skip cropping
-			onPhotoCropped();
+			//onPhotoTaken(); // skip cropping
+            onPhotoTaken();
 		} else if( requestCode == GALLERY_PICTURE && resultCode == Activity.RESULT_OK ){
 			Log.v(TAG, "Photo Selected from Gallery");
 
@@ -199,9 +199,9 @@ public class MainActivity extends Activity  implements LocationListener {
             }
 			 */
 			//onPhotoTaken(); // skip cropping
-			onPhotoCropped();
+            onPhotoTaken();
 		} else if ( resultCode == -1 ) {
-			//onPhotoCropped();
+            onPhotoCropped();
 		} else {
 			Log.v(TAG, "User cancelled");
 		}
